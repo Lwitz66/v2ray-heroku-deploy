@@ -1,0 +1,18 @@
+{
+    "name": "V2Ray",
+    "description": "Deploy V2ray VLESS on Heroku.",
+    "keywords": ["V2Ray"],
+    "env": {
+        "ID": {
+            "description": "UUID",
+            "value": "ddaea2f7-8249-4bf2-bb2e-454533f5a754"
+        },
+        "WSPATH": {
+            "description": "WebSocket Path",
+            "value": "/"
+        }
+    },
+    "website": "https://jinva.site",
+    "repository": "https://github.com/jinva/v2ray-heroku-deploy/tree/vless",
+    "stack": "container"
+}
